@@ -2,7 +2,7 @@ import React from 'react'
 import treand from '../assets/treand.png'
 import treanding from '../assets/treanding.png'
 import treans from '../assets/treans.png'
-import trea from '../assets/trea.png'
+import trea from '../assets/Trea.png'
 
 const Treanding = () => {
   return (
