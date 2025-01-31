@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react'
 import axios from 'axios'
 
-const apiData = createContext();
+let apiData = createContext();
 
 const ContextApi = ({children}) => {
   let [apiInfo, setApiInfo] = useState ([])

@@ -1,9 +1,10 @@
 import { useContext, useEffect, useState } from "react";
-import { apiData } from "../components/ContextApi";
+
 import { TiArrowSortedDown } from "react-icons/ti";
 import { FaBorderAll } from "react-icons/fa";
 import { FaListUl } from "react-icons/fa";
 import Reusable2 from "./Reauseble2";
+import { apiData } from "./ContextApi";
 
 const Shopitem = () => {
   let data = useContext(apiData);
